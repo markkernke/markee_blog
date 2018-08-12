@@ -3,11 +3,11 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io
-baseurl:          '/hydeout'
+title:            markee's blog
+tagline:          'Tips and Tricks for Tableau Server Administrators'
+description:      'Tips and Tricks for Tableau Server Administrators'
+url:              http://markee88.com
+baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -15,12 +15,14 @@ baseurl:          '/hydeout'
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Mark Kernke'
+  url:            https://twitter.com/markee88
 
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
+
+permalink:          'pretty'
 
 plugins:
   - jekyll-feed
@@ -45,12 +47,13 @@ defaults:
       layout: post
 
 # Custom vars
-version:            3.7.1
-sidebar_home_link:  true
+#version:            3.7.1
+#sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+<<<<<<< HEAD
 github:
   repo:           https://github.com/fongandrew/hydeout
 
@@ -58,3 +61,23 @@ disqus:
   shortname:      hydeout
 
 google_analytics: UA-100461102-1
+=======
+remote_theme: 'fongandrew/hydeout'
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: blog@markee88.com
+  facebook:
+  flickr:
+  github: markkernke
+  instagram:
+  linkedin: markkernke
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  tableau: mark.kernke
+  twitter: markee88
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+>>>>>>> master

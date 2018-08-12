@@ -4,10 +4,4 @@ title: About
 sidebar_link: true
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
-
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+I'm Mark Kernke, an avid Tableau user since 2010. I have experience with both Desktop and Server, but this blog should focus more on the server administration and the implementation of technical and softer elements.
